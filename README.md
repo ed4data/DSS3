@@ -1,4 +1,5 @@
-# DSS3: Getting and Cleaning Data, Third course on Data Science Specialization
+# DSS3: Getting and Cleaning Data 
+Third course on Data Science Specialization
 #Introduction:
 This folder consists of project files of Coursera's Getting and Cleaning Data Project.
 The purpose of this project is to demonstrate ability to collect, work with, and clean a data set for later analysis.
