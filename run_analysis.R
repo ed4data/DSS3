@@ -24,3 +24,4 @@ x_data <- rbind(x_Train, x_Test)
 mean_and_std_features <- grep("-(mean|std)\\(\\)", dataset_features[, 2])
 x_data <- x_data[, mean_and_std_features]
 names(x_data) <- dataset_features[mean_and_std_features, 2]
+write.table(x_data, "DSS_data.txt", sep="\t", row.names=FALSE)
